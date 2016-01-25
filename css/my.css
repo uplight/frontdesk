@@ -22,6 +22,9 @@ color: white;
 
 }
 
+.carousel-caption>h2 {
+    text-shadow: 0px 0px 3px #000000;
+}
 #branding{
     background-image: url("uplight_banner.jpg");
    height:100%;
