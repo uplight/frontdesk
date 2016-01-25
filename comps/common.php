@@ -1,16 +1,6 @@
 <?php
 session_start();
-//$_SESSION['ip']=$_SERVER['REMOTE_ADDR'];
-//$base=$_SERVER['DOCUMENT_ROOT'];
-//$service=$_SERVER['PHP_SELF'];
 $topic =!empty($_SERVER['QUERY_STRING'])?$_SERVER['QUERY_STRING']:0;
-//$configXML=simplexml_load_file('data/config.xml');
-//$comps=array();
-//$data=array();
-//$images = scandir('data/images');
-//$directoriesImg = scandir('data/images/directories');
-//$directories = scandir('data/directories');
-//$common = scandir('data/com');
 
 class Library{
     var $images;

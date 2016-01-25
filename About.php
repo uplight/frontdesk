@@ -1,7 +1,6 @@
 <!doctype html>
 <head>
-    <title>UPLIGHT</title>
-    <?php include "comps/common.php"; ?>
+    <?php include "comps/header-meta.php"; ?>
 </head>
 <body id="home">
 <?php
