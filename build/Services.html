@@ -1,0 +1,507 @@
+
+<!doctype html>
+    <head>
+        <title>UPLIGHT</title>
+        
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<meta name="google-site-verification" content="bwbiF8sgNJJbW_SCet7eSBrI-HH6e8mO2CnWiSsf-VM" />
+<!--<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />-->
+<link href="css/modern-business.css" rel="stylesheet" type="text/css" />
+<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/cerulean/bootstrap.min.css" rel="stylesheet">
+<!--<link href="css/font-awesome.css" rel="stylesheet" type="text/css">-->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/my.css" rel="stylesheet" type="text/css" />
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script  src="js/require.js"></script>
+
+    <style>
+        #services .media-body>p{
+            height: 4em;
+        }
+    </style>
+    </head>
+    <body id="services">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.php"><img src="css/logo.png" /> UPLIGHT</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="About.php">About</a>
+                </li>
+                <li>
+                    <a href="Services.php">Services</a>
+                </li>
+                <li>
+                    <a href="Contact.php">Contact</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="Portfolio.php">Portfolio All</a>
+                        </li>
+                        <li>
+                            <a href="Portfolio.php?Video-Thumbnails">Video Thumbnails</a>
+                        </li>
+                        <li>
+                            <a href="Portfolio.php?Video-Game">Video Game</a>
+                        </li>
+                        <li>
+                            <a href="Portfolio.php?Sound-Visualisation">Sound Visualisation</a>
+                        </li>
+                        <li>
+                            <a href="Portfolio.php?image-editor">Image Editorn</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="Blog.php">Blog All</a>
+                        </li>
+                        <li>
+                            <a href="Blog.php?Blog-1">Blog 1</a>
+                        </li>
+                        <li>
+                            <a href="Blog.php?Blog-2">Blog 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="More.php">More All</a>
+                        </li>
+                        <li>
+                            <a href="More.php?More-1">More 1</a>
+                        </li>
+                        <li>
+                            <a href="More.php?More-2">More 2</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav><header id="myCarousel" class="carousel slide hidden-xs">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+            <div class="carousel-caption">
+                <h2>Caption 1</h2>
+            </div>
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+            <div class="carousel-caption">
+                <h2>Caption 2</h2>
+            </div>
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three one ');"></div>
+            <div class="carousel-caption">
+                <h2>Caption 3</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</header>
+<script>
+    setTimeout(function(){
+        $('.carousel').carousel({
+           interval: 5000 //changes the speed
+         })
+    },5000);
+
+</script>        <div class="container">
+            <!-- Marketing Icons Section -->
+
+<!-- Page Heading/Breadcrumbs -->
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Services
+            <small>Subheading</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="index.php">Home</a>
+            </li>
+            <li class="active">Services</li>
+        </ol>
+    </div>
+</div>
+<!-- /.row -->
+
+<!-- Image Header -->
+<div class="row">
+    <div class="col-lg-12">
+        <img class="img-responsive" src="http://placehold.it/1200x300" alt="">
+    </div>
+</div>
+<!-- /.row -->
+
+<!-- Service Panels -->
+<!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">Services Panels</h2>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="panel panel-default text-center">
+            <div class="panel-heading">
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
+                        </span>
+            </div>
+            <div class="panel-body">
+
+                <h4>Mobile Applications</h4>
+<p>Running on any computerised device what available today on a market does allow connected any person to small and  large businesses
+    To stay in stream with growing market  of mobile devices we keep a banner “Mobile First” in all our applications what included light weight, minimum data pass over network, secure transactions, code optimization to boost performance, Online/Offline mode, instant start
+</p>
+
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="panel panel-default text-center">
+            <div class="panel-heading">
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
+                        </span>
+            </div>
+            <div class="panel-body">
+
+                <h4>Kiosks Software</h4>
+<p>Simplicity to use just with touch of your finger even kids can do so. Same time it is part of business architecture and the way to deliver valuable information on a key point of public places.
+    Kiosk on entrance,  on intersection, on busy place help people better understand business they are enquire in. Interactive content in a couple of touches  opens a door to valuable content laying on well designed view
+    .</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="panel panel-default text-center">
+            <div class="panel-heading">
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                        </span>
+            </div>
+            <div class="panel-body">
+
+                <h4>CMS</h4>
+<p>Best Content Management System does not need a Manual
+    Avoid mistakes and self explanatory interface
+    Content management and  edit application configuration is very responsible and time consuming work. We know that and our software aimed to avoid confusion and learning curve. User interfaces for data management equipt with input validation, raw preview or we give to administrator full front end view with live editing capability. Changes will not apply until approved but admin can see right away affected changes what he/she have made. Color theme, banner, background, text editing and many others features can be edit on a Backend in exactly same  interface what Frontend has. Administrator can have feel and look of Frontend after changes will apply.
+    For corporations we provide role based data access with changes notifications, approvement, history and revert capabilities.
+</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="panel panel-default text-center">
+            <div class="panel-heading">
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-cloud fa-stack-1x fa-inverse"></i>
+                        </span>
+            </div>
+            <div class="panel-body">
+
+                <h4>Web Applications</h4>
+<p>HTML5 CSS3 and JavaScript are the base of our applications
+    Without any special translations, conversions or re-programming, a web app can run on pretty much any platform with a modern, standards-compliant web browse. Scalability of web servers running on Android device to cloud does allow use of the same software starting from 1 request per second to 20,000 request per second without any change. If you have web server running or website  we can seamlessly deploy our application on existing environment.
+</p>
+
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Service Tabs -->
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">Service Tabs</h2>
+    </div>
+    <div class="col-lg-12">
+
+        <ul id="myTab" class="nav nav-tabs nav-justified">
+            <li class="active"><a href="#service-one" data-toggle="tab"><i class="fa fa-wrench"></i> Integration</a>
+            </li>
+            <li class=""><a href="#service-two" data-toggle="tab"><i class="fa fa-cloud"></i> Cloud Solutions</a>
+            </li>
+            <li class=""><a href="#service-three" data-toggle="tab"><i class="fa fa-database"></i> Statistics and Analysis</a>
+            </li>
+            <li class=""><a href="#service-four" data-toggle="tab"><i class="fa fa-plug"></i> Web Plugin</a>
+            </li>
+        </ul>
+
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active in" id="service-one">
+
+                <h4>Integration</h4>
+<p>Today the organizations heavily rely on the technologies which are of different nature and the applications running in different business based on different technologies.
+We  have experience to provide integration on Data level, application level, Method level and User Interface level.
+If replication not available or inappropriate we developed our own synchronizer to be intact with data modification. In most cases we try to have proxy servers to maintain integration on Application or even user interface level
+Our applications have standard WEB  network interface  to given a room for father extensions and integrations with other software. Latest technology of WEB does allow to meet security requirements on enterprise level.
+</p>
+
+            </div>
+            <div class="tab-pane fade" id="service-two">
+
+                <h4>Cloud Solutions</h4>
+<p>We are using WEB standard for network communication providing security reviews and risk assessments during architecture and design, static testing during implementation, dynamic testing at pre-launch and ongoing security testing and monitoring in production. Cloud application included Authentication, Authorization, Session Management, Input Validation, Error Handling, Logging, Cryptography.Working with live data hiding on background complexity of operations and transactions leave it all for programmers.
+</p>
+
+
+            </div>
+            <div class="tab-pane fade" id="service-three">
+
+                
+<h4>Statistics and Analysis</h4>
+<p>
+    Counting user interactions is very important to turn business towards interests and be updated with latest analysis  to minify weaknesses and power up strength of running business. All statistics stored in database and available in different views and forms. Customising SQL queries reports can be delivered in graphs, tables, raw data.
+
+
+</p>
+            </div>
+            <div class="tab-pane fade" id="service-four">
+
+                <h4>Web Plugins</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+            
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Service List -->
+<!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">Areas</h2>
+    </div>
+    <div class="col-md-4">
+        <div class="media">
+            <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        </span>
+            </div>
+            <div class="media-body">
+
+                <h4 class="media-heading">Product Selection</h4>
+<p>Legion of products with multiple properties making salesperson work hard to get customer satisfaction. Software with well organised structure and cross references coming to help human make a right choice the goods they are owning.
+</p>
+
+            </div>
+        </div>
+        <div class="media">
+            <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-sitemap fa-stack-1x fa-inverse"></i>
+                        </span>
+            </div>
+            <div class="media-body">
+
+                <h4 class="media-heading">Business Directories</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+
+            </div>
+        </div>
+        <div class="media">
+            <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-info fa-stack-1x fa-inverse"></i>
+                        </span>
+            </div>
+            <div class="media-body">
+
+                
+<h4 class="media-heading">Information Delivery</h4>
+<p>As a website plugin existing Information can be transferred  and displayed on touch screen kiosk at any location. It is convenient for new visitors as introduction and built-in RSS feed can deliver news for permanent workers
+</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="media">
+            <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i>
+                        </span>
+            </div>
+            <div class="media-body">
+
+                <h4 class="media-heading">Advertisement </h4>
+<p>As point of business displaying advertisement is a good use of kiosk screen. It’s bringing life to environment with beautiful images highlighting many edges of human life
+</p>
+
+            </div>
+        </div>
+        <div class="media">
+            <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-bolt fa-stack-1x fa-inverse"></i>
+                        </span>
+            </div>
+            <div class="media-body">
+
+                <h4 class="media-heading">Messaging and Alerts</h4>
+<p>
+    Along with news kiosks are used as messaging and alerts delivery system. Messages could be scheduled for events and dates and have traditional color theme to reflect message content. Alerts usually used for emergency or something what can change regular rootin rout  of building participants. Emergency alert usually blocking the  screen ot taking majority of visual surface forcing people attention.Available options  sounding, voced, playing prerecorded voice message
+
+</p>
+            </div>
+        </div>
+        <div class="media">
+            <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-book fa-stack-1x fa-inverse"></i>
+                        </span>
+            </div>
+            <div class="media-body">
+
+                <h4 class="media-heading">Booking and Reservation</h4>
+<p>
+    Working with life data along with data visualization is advantage of kiosk or mobile way of booking and reservation. User can see availability on graphs and timelines to make better choice for his/her requirements. Network connectivity does allow to have main data in one location and let number of people make similar operations with the same data avoiding request collisions and double entry..
+</p>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="media">
+            <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+                        </span>
+            </div>
+            <div class="media-body">
+
+
+                <h4 class="media-heading">Wayfinding</h4>
+<p>
+    Wayfinding is one advantage of modern technologies. In labirintus of structures easy to lost, be late, start nervous.
+    Determining where your location in global world coordinate system and location of your destination wayfinding given a shortest path with images and direction instructions.
+
+    We provide 3 types of wayfinder : Google map integration, our own wayfinding software and hybrid of both.
+
+    Couple things you need to know before making choice:
+
+    Google map integration assumes your building floor maps will be exposed to the Internet freely
+    Google map more adopt  for use on mobile.
+    You can�t correct path and map quickly in case of temporary or permanent changes,
+    Google map not much customisable but rather under one global format
+
+    Our wayfinding system designed to use on kiosks.
+    We provide interface for correcting path and locations. You can change map or reassign destination at any time and apply changes instantly
+    We do custom design of map image using brand colors and labels
+
+</p>
+
+
+            </div>
+        </div>
+        <div class="media">
+            <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i>
+                        </span>
+            </div>
+            <div class="media-body">
+
+                <h4 class="media-heading">Games and Entertainment</h4>
+<p>
+    There are billions of people in a world and billions games written in computer world. It is never enough. Games are advantage and entertainment. Through games people exploring the world and exploring them self. Entertainment is mandatory part of our life. It relax it charge it make us creative. web technology does allow us to integrate any web based game what in millions available in Internet in our content
+</p>
+
+
+            </div>
+        </div>
+        <div class="media">
+            <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-building fa-stack-1x fa-inverse"></i>
+                        </span>
+            </div>
+            <div class="media-body">
+
+                <h4 class="media-heading">Architecture and comfort</h4>
+<p>Kiosks are perfectly fits in Hi tech design. They could be part of building amenities same time bringing every day  something new. It become more and more common to have electronic screens as part of architecture. Images can express emotions and give a proper mood  for people to adequate environment.
+    If picture has faces of kids with a smile or flowers it make person smile and open their mind to following could be very important meeting.
+    History wall is a common use of touchscreens as part of design. It bringing respect to owner of business User can browse hundreds of images with swipe of the finger.. Small story can be attached to the image.
+</p>
+
+
+            </div>
+        </div>
+    </div>
+</div>        </div>
+        <footer>
+    <div class="row">
+        <div class="col-lg-12">
+            <p>Copyright &copy; uplight.ca 2014</p>
+        </div>
+    </div>
+</footer>
+<script src="js/libs/bootstrap.min.js"></script>
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootlint/0.12.0/bootlint.min.js"></script>-->
+<!--
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>-->
+    </body>
+</html>

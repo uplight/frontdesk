@@ -1,0 +1,59 @@
+#branding{
+    background-image: url("uplight_banner.jpg");
+   height:100%;
+    width: 100%;
+}
+.hidden{
+    display: none;
+}
+#services .media-body p{
+    height: 3.5em;
+    margin-bottom: 1em;
+}
+.navbar-brand>img{
+    width: 20px;
+    height: 20px;
+    display: inline;
+}
+
+#portfolio .row>.col-md-5>div{
+    overflow: hidden;
+   /* max-height: 12em;*/
+    margin-bottom: 2em;
+}
+#portfolio .row>.col-md-5>div h4, h5{
+   color: inherit;
+}
+
+h1.media-heading{
+    font-size: 1.5em;
+}
+.panels-row .panel-body{
+    height: 26em;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.panel-body p{
+    text-align: left;
+}
+.panel-body div{
+    padding: 0;
+    margin: 0;
+}
+
+/* CSS REQUIRED */
+.state-icon {
+    left: -5px;
+}
+.list-group-item-primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 139, 202);
+}
+
+/* DEMO ONLY - REMOVES UNWANTED MARGIN */
+.well .list-group {
+    margin-bottom: 0px;
+    height: 300px;
+    overflow: auto;
+}

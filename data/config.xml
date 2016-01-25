@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body>
+    <comps>
+        <comp>
+            <id>header</id>
+            <file>comps/header.php</file>
+        </comp>
+        <comp>
+            <id>carusel</id>
+            <file>comps/carusel.php</file>
+        </comp>
+        <comp>
+            <id>breadcrumb</id>
+            <file>comps/breadcrumb.php</file>
+        </comp>
+        <comp>
+            <id>contactform</id>
+            <file>comps/contactForm.php</file>
+        </comp>
+        <comp>
+            <id>footer</id>
+            <file>comps/footer.php</file>
+        </comp>
+        <comp>
+            <id>nav</id>
+            <file>comps/nav.php</file>
+        </comp>
+        <comp>
+            <id>about</id>
+            <file>data/about.php</file>
+        </comp>
+        <comp>
+            <id>call</id>
+            <file>data/call.php</file>
+        </comp>
+        <comp>
+            <id>contact</id>
+            <file>data/contact.php</file>
+        </comp>
+        <comp>
+            <id>custumers</id>
+            <file>data/customers.php</file>
+        </comp>
+        <comp>
+            <id>features</id>
+            <file>data/features.php</file>
+        </comp>
+        <comp>
+            <id>info</id>
+            <file>data/info.php</file>
+        </comp>
+        <comp>
+            <id>services</id>
+            <file>data/services.php</file>
+        </comp>
+        <comp>
+            <id>team</id>
+            <file>data/team.php</file>
+        </comp>
+        <comp>
+            <id>p-all</id>
+            <file>portfolio/all.php</file>
+        </comp>
+        <comp>
+            <id>image-editor</id>
+            <file>portfolio/image-editor.php</file>
+        </comp>
+        <comp>
+            <id>p-mouse-over</id>
+            <file>portfolio/Mouse-Over.php</file>
+        </comp>
+        <comp>
+            <id>p-related</id>
+            <file>portfolio/related.php</file>
+        </comp>
+        <comp>
+            <id>p-single-item</id>
+            <file>portfolio/single-item.php</file>
+        </comp>
+        <comp>
+            <id>Sound-Visualisation</id>
+            <file>portfolio/Sound-Visualisation.php</file>
+        </comp>
+        <comp>
+            <id>Video-Game</id>
+            <file>portfolio/Video-Game.php</file>
+        </comp>
+        <comp>
+            <id>Video-Thumbnails</id>
+            <file>portfolio/Video-Thumbnails.php</file>
+        </comp>
+        <comp>
+            <id>portfolio2</id>
+            <file>portfolio/all_col.php</file>
+        </comp>
+        <comp>
+            <id>p-breadcrumb</id>
+            <file>portfolio/breadcrumb.php</file>
+        </comp>
+    </comps>
+    <data>
+        <item>
+            <id>Advertisement</id>
+            <file>data/com/Advertisement.html</file>
+        </item>
+        <item>
+            <id>Architecture</id>
+            <file>data/com/Architecture.html</file>
+        </item>
+        <item>
+            <id>Booking-and-Reservation</id>
+            <file>data/com/Booking and Reservation.html</file>
+        </item>
+        <item>
+            <id>Business-Directories</id>
+            <file>data/com/Business Directories.html</file>
+        </item>
+        <item>
+            <id>Call-to-Action</id>
+            <file>data/com/Call to Action.html</file>
+        </item>
+        <item>
+            <id>Cloud-Solution</id>
+            <file>data/com/Cloud Solution.html</file>
+        </item>
+        <item>
+            <id>CMS</id>
+            <file>data/com/CMS.html</file>
+        </item>
+        <item>
+            <id>Games-and-Entertainment</id>
+            <file>data/com/Games and Entertainment.html</file>
+        </item>
+        <item>
+            <id>Information-Delivery</id>
+            <file>data/com/Information Delivery.html</file>
+        </item>
+        <item>
+            <id>Integration</id>
+            <file>data/com/Integration.html</file>
+        </item>
+        <item>
+            <id>Kiosk-Software</id>
+            <file>data/com/Kiosk Software.html</file>
+        </item>
+        <item>
+            <id>Messaging-and-Alerts</id>
+            <file>data/com/Messaging and Alerts.html</file>
+        </item>
+        <item>
+            <id>Mobile-Applications</id>
+            <file>data/com/Mobile Applications.html</file>
+        </item>
+        <item>
+            <id>Modern-Features</id>
+            <file>data/com/Modern Features.html</file>
+        </item>
+        <item>
+            <id>Product-Selection</id>
+            <file>data/com/Product Selection.html</file>
+        </item>
+        <item>
+            <id>Statistics-and-Analysis</id>
+            <file>data/com/Statistics and Analysis.html</file>
+        </item>
+        <item>
+            <id>Wayfinding</id>
+            <file>data/com/Wayfinding.html</file>
+        </item>
+        <item>
+            <id>Web-Applications</id>
+            <file>data/com/Web Applications.html</file>
+        </item>
+        <item>
+            <id>Web-Plugins</id>
+            <file>data/com/Web Plugins.html</file>
+        </item>
+        <item>
+            <id>Brabd-Colors</id>
+            <file>data/dir/Brand Colors.html</file>
+        </item>
+        <item>
+            <id>Building-Directories</id>
+            <file>data/dir/Building Directories.html</file>
+        </item>
+        <item>
+            <id>Directories-CMS</id>
+            <file>data/dir/CMS.html</file>
+        </item>
+        <item>
+            <id>Directories-Edit-Info</id>
+            <file>data/dir/Edit Info.html</file>
+        </item>
+        <item>
+            <id>Directories-Import-Export</id>
+            <file>data/dir/Import Export.html</file>
+        </item>
+        <item>
+            <id>Directories-Info-Pages</id>
+            <file>data/dir/Info Pages.html</file>
+        </item>
+        <item>
+            <id>Directories-Information-Delivery</id>
+            <file>data/dir/Information Delivery.html</file>
+        </item>
+        <item>
+            <id>Directories-Keywords</id>
+            <file>data/dir/Keywords.html</file>
+        </item>
+        <item>
+            <id>Directories-Manage-Categories</id>
+            <file>data/dir/Manage Categories.html</file>
+        </item>
+        <item>
+            <id>Directories-Messaging</id>
+            <file>data/dir/Messaging.html</file>
+        </item>
+        <item>
+            <id>Directories-Mobile-handoff</id>
+            <file>data/dir/Mobile habdoff.html</file>
+        </item>
+        <item>
+            <id>Directories-Screen-Appearance</id>
+            <file>data/dir/Screen Appearance.html</file>
+        </item>
+        <item>
+            <id>Directories-What</id>
+            <file>data/dir/What is Directories.html</file>
+        </item>
+    </data>
+</body>
