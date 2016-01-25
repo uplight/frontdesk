@@ -1,14 +1,31 @@
+.navbar{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#299a0b+0,299a0b+100;Green+Flat+%231 */
+    background: rgb(41,154,11); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(41,154,11,1) 0%, rgba(41,154,11,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(41,154,11,1) 0%,rgba(41,154,11,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(41,154,11,1) 0%,rgba(41,154,11,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', endColorstr='#299a0b',GradientType=0 ); /* IE6-9 */
+
+color: white;
+
+}
+.navbar a{
+    color: white;
+}
+.navbar a:hover{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#299a0b+0,57f413+100 */
+    background: rgb(41,154,11); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(41,154,11,1) 0%, rgba(87,244,19,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(41,154,11,1) 0%,rgba(87,244,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(41,154,11,1) 0%,rgba(87,244,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', endColorstr='#57f413',GradientType=0 ); /* IE6-9 */
+
+}
+
 #branding{
     background-image: url("uplight_banner.jpg");
    height:100%;
     width: 100%;
-}
-.hidden{
-    display: none;
-}
-#services .media-body p{
-    height: 3.5em;
-    margin-bottom: 1em;
 }
 .navbar-brand>img{
     width: 20px;
@@ -16,21 +33,11 @@
     display: inline;
 }
 
-#portfolio .row>.col-md-5>div{
-    overflow: hidden;
-   /* max-height: 12em;*/
-    margin-bottom: 2em;
-}
-#portfolio .row>.col-md-5>div h4, h5{
-   color: inherit;
-}
-
 h1.media-heading{
     font-size: 1.5em;
 }
 .panels-row .panel-body{
     height: 26em;
-
     overflow-x: hidden;
     overflow-y: auto;
 }
