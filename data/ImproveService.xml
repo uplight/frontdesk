@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <body>
-    <h1><![CDATA[ Improve your service  ]]></h1>
+    <image>data/images/green2.jpg</image>
+    <icon>fa fa-gift</icon>
+    <title>Improve your service</title>
     <description><![CDATA[
     You want your facility looks good and people working and visitors feel more comfortable.
 Interactive business directory is one more step towards it.
@@ -9,4 +11,5 @@ Every owner of the business facilities wants his clients proud of the place wher
 
          ]]>
     </description>
+    <text></text>
 </body>

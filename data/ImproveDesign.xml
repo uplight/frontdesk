@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <body>
-    <h1><![CDATA[ Improve interior design  ]]></h1>
+    <image>data/images/green1.jpg</image>
+    <icon>fa fa-heart</icon>
+    <title>Improve interior design</title>
     <description><![CDATA[
     Ability to customize view given a power to decorate. Decorate, first expression.
 
 The first influence of person where he in goes from interior design. Interior design is a face of the building. Digital directories with custom design is an integral part of your interior and can be  easy adjustable to current demand.
 
          ]]></description>
+    <text></text>
 </body>

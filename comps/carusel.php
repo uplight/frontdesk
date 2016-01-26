@@ -1,19 +1,19 @@
 <header id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel" data-interval="5000">
 
-    <? $images = json_decode(file_get_contents('data/carusel.json')); ?>
+
 
     <ol id="caruselIndicator" class="carousel-indicators">
-        <?php $i=0; foreach($images as $row) {   ?>
+        <?php $i=0; foreach($carousel as $row) {   ?>
         <li data-target="#myCarousel" data-slide-to="<?=$i;?>" class="<?= ($i?'':'active'); ?>"></li>
         <?php $i++; } ?>
     </ol>
 
     <div id="CaruselInner" class="carousel-inner">
-        <?php $i=0; foreach($images as $row) {   ?>
+        <?php $i=0; foreach($carousel as $row) {   ?>
             <div class="item <?=($i?'':'active');?>">
-                <div class="fill" style="background-image:url('<?=$row->src?>');"></div>
+                <div class="fill" style="background-image:url('<?=(string)$row->image?>');"></div>
                 <div class="carousel-caption">
-                    <h2><?= $row->name?></h2>
+                    <h2><?= $row->title?></h2>
                 </div>
             </div>
         <?php $i++; } ?>
