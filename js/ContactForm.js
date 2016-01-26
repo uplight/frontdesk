@@ -1,6 +1,3 @@
-/**
- * Created by VladHome on 5/28/2015.
- */
 ///<reference path='typings/jquery.d.ts' />
 var CLICK = CLICK || 'click';
 var uplignt;
@@ -66,13 +63,11 @@ var uplignt;
             data.title = $.trim($('#formtitle').text());
             data.formid = this.id;
             data.url = window.location.href;
-            this.view.find('.form-control').each(function (num, el) {
-                data[el.getAttribute('id')] = $(el).val();
-            });
+            this.view.find('.form-control').each(function (num, el) { data[el.getAttribute('id')] = $(el).val(); });
             // data.formsid= this.view.find('input')
             // data.text= this.view.find('textarea').val();
             // console.log(data);
-            $.post('sendMessage.php', JSON.stringify(data)).done(function (res) { return _this.onSendSuccess(res); }).fail(function () { return _this.onFail(); });
+            $.post('services/sendMessage.php', JSON.stringify(data)).done(function (res) { return _this.onSendSuccess(res); }).fail(function () { return _this.onFail(); });
         };
         ContactForm.prototype.onSendSuccess = function (res) {
             if (res == 'success') {
