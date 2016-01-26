@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <body>
     <image>data/images/banner1.jpg</image>
-    <icon>fa fa-gear</icon>
-    <title>Correspond technology level</title>
+    <icon>fa fa-desktop</icon>
+    <title>Hardware</title>
     <description><![CDATA[
-    Artificial intelligence getting more mature It become available in all the places. Next generation of computer integrity bringing the benefits of modern life style and arouse interest with desire to try new technologies.
+
+    Kiosk is Google Chrome based software and can be run on any touchscreen supporting web browser.  We have successfully integrated or application with use CISCO players 4600 and Edge 340.  It can be any computed based  module with touchscreen running Windows, Linux or Android OS. Application optimized to run on Mobile devices so minimum requirements as low as tablet device have
 
     ]]></description>
     <text>

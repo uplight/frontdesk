@@ -12,21 +12,22 @@ class DataProxy{
         for($i=0,$n=count($ar);$i<$n;$i++) $out[]='data/'.$ar[$i].'.xml';
         return $out;
     }
-   private function getMain(){
-       $main = $this->settings->main;
-       return $this->addLocation($main);
 
-    }
-    public function getOters(){
-        $ar = $this->settings->others;
-        return $this->addLocation($ar);
-    }
-
-    public function loadMain(){
-        $urls= $this->getMain();
+    private function loadData($ar){
         $data=array();
-        foreach($urls as $url)$data[] = simplexml_load_file($url);
+        foreach($ar as $url){
+            if(file_exists($url)) $data[] = simplexml_load_file($url);
+            else echo 'error load url '.$url;
+        }
         return $data;
+    }
+    public function loadMain(){
+        $urls = $this->addLocation($this->settings->main);
+        return $this->loadData($urls);
+    }
+    public function loadOthers(){
+        $urls = $this->addLocation($this->settings->others);
+        return $this->loadData($urls);
     }
 }
 

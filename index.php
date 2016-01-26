@@ -17,7 +17,6 @@ session_start();
     include "comps/carusel.php";
     ?>
     <div class="container">
-
         <div class="col-lg-12" id="WelcomeToWeb">
             <h1 class="page-header">
                 Welcome to Building directories Pro
@@ -26,11 +25,22 @@ session_start();
 
         <?php
         $panels3 = $main;
+
         include "comps/panels3.php";
 
+
         ?>
-        <div class="panels-row">
+        <div>
             <h2>Main Features</h2>
+            <?
+            $others = $d->loadOthers();
+
+          //  $panels4=$others;
+          //  include "comps/panels4.php";
+            $media3=$others;
+            include "comps/media3.php";
+
+            ?>
 
 
         </div>

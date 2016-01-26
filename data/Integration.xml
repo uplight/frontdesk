@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <body>
     <image>data/images/banner1.jpg</image>
-    <icon>fa fa-gear</icon>
-    <title>Correspond technology level</title>
+    <icon>fa fa-cubes</icon>
+    <title>Integration with other application and multi functional kiosksl</title>
     <description><![CDATA[
-    Artificial intelligence getting more mature It become available in all the places. Next generation of computer integrity bringing the benefits of modern life style and arouse interest with desire to try new technologies.
+
+  If you have already kiosk running our application can be seamlessly integrated into existing hardware.
+As simple as switching between browsers windows our application can be activated and deactivated on screen instantly. Depends on network configuration and device characteristics it adopts automatically to environment deliver the best experience to end user
 
     ]]></description>
     <text>

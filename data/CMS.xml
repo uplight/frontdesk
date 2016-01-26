@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <body>
     <image>data/images/banner1.jpg</image>
-    <icon>fa fa-gear</icon>
-    <title>Correspond technology level</title>
+    <icon>fa fa-edit</icon>
+    <title>Content Management System</title>
     <description><![CDATA[
-    Artificial intelligence getting more mature It become available in all the places. Next generation of computer integrity bringing the benefits of modern life style and arouse interest with desire to try new technologies.
+
+  Remotely control through admin panel provides ability instantly edit existing content without additional costs.
+Content managed through user friendly web based (CMS)  Our goal is to have CMS intuitive that average person can start using it without training and manuals.
 
     ]]></description>
     <text>
