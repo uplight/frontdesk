@@ -19,7 +19,7 @@ session_start();
     <div class="container">
         <div class="col-lg-12" id="WelcomeToWeb">
             <h1 class="page-header">
-                Welcome to Building directories Pro <a href="#request-demo" class="btn btn-success pull-right">Request Demo</a>
+                Welcome to Building directories Pro <a href="Contact?Request-Demo#Contact-Form" class="btn btn-success pull-right">Request Demo</a>
             </h1>
         </div>
 
@@ -58,7 +58,7 @@ session_start();
                 </p>
             </div>
             <div class="col-md-4">
-                <a class="btn btn-lg btn-default btn-block" href="Contact.php?Request-Online-Quote-Page#Contact-Form">Ask a question</a>
+                <a class="btn btn-lg btn-default btn-block" href="Contact?Ask-question#Contact-Form">Ask a question</a>
             </div>
         </div>
     </div>

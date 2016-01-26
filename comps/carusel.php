@@ -1,7 +1,4 @@
-<header id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel" data-interval="5000">
-
-
-
+<header id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
     <ol id="caruselIndicator" class="carousel-indicators">
         <?php $i=0; foreach($carousel as $row) {   ?>
         <li data-target="#myCarousel" data-slide-to="<?=$i;?>" class="<?= ($i?'':'active'); ?>"></li>
