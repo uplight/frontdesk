@@ -7,4 +7,5 @@
 <script src="js/libs/bootstrap.js"></script>
 
 <script src="js/libs/underscore-min.js"></script>
-<script  src="js/libs/require.js"></script>
+<!--<script  src="js/libs/require.js"></script>-->
+<script  src="js/libs/jquery.nanoscroller.min.js"></script>

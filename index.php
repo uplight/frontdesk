@@ -25,16 +25,18 @@ session_start();
 
         <?php
         $panels3 = $main;
-
         include "comps/panels3.php";
 
-
         ?>
+        <hr/>
+        <br/>
         <div>
+            <div class="col-lg-12">
             <h2>Main Features</h2>
+            </div>
+            <br/>
             <?
             $others = $d->loadOthers();
-
           //  $panels4=$others;
           //  include "comps/panels4.php";
             $media3=$others;

@@ -1,5 +1,5 @@
 {
   "main":["ImproveService","ImproveDesign","CorrespondTechnology"],
-  "others":["MobileVersion","Wayfinding","InformationTechnology","FrontDesk","CMS","Statistics","Hardware","Integration","FrontDesk"]
+  "others":["MobileVersion","Wayfinding","Information","FrontDesk","CMS","Statistics","Hardware","Integration","FrontDesk"]
 }
 

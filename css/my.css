@@ -1,18 +1,27 @@
-.navbar{
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#299a0b+0,299a0b+100;Green+Flat+%231 */
+.panel.panel-default{
+   /* box-shadow: 5px 5px 20px #aaaaaa;*/
+    border-radius: 10px;
+}
+
+
+
+.brand-text{
+    color: #3c763d;
+}
+
+.brand{
     background: rgb(41,154,11); /* Old browsers */
     background: -moz-linear-gradient(top,  rgba(41,154,11,1) 0%, rgba(41,154,11,1) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  rgba(41,154,11,1) 0%,rgba(41,154,11,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  rgba(41,154,11,1) 0%,rgba(41,154,11,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', endColorstr='#299a0b',GradientType=0 ); /* IE6-9 */
-
-color: white;
-
-}
-.navbar a{
     color: white;
 }
-.navbar a:hover{
+
+.brand a{
+    color: white;
+}
+.brand a:hover{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#299a0b+0,57f413+100 */
     background: rgb(41,154,11); /* Old browsers */
     background: -moz-linear-gradient(top,  rgba(41,154,11,1) 0%, rgba(87,244,19,1) 100%); /* FF3.6-15 */
@@ -44,8 +53,8 @@ h1.media-heading{
     overflow-x: hidden;
     overflow-y: auto;
 }
-.panel-body p{
-    text-align: left;
+.panels-flat .nano{
+    height: 150px;
 }
 .panel-body div{
     padding: 0;
@@ -67,3 +76,65 @@ h1.media-heading{
     height: 300px;
     overflow: auto;
 }
+
+/** initial setup **/
+.nano {
+    position : relative;
+    width    : 100%;
+    height   : 100%;
+    overflow : hidden;
+}
+.nano > .nano-content {
+    position      : absolute;
+    overflow      : scroll;
+    overflow-x    : hidden;
+    top           : 0;
+    right         : 0;
+    bottom        : 0;
+    left          : 0;
+}
+.nano > .nano-content:focus {
+    outline: thin dotted;
+}
+.nano > .nano-content::-webkit-scrollbar {
+    display: none;
+}
+.has-scrollbar > .nano-content::-webkit-scrollbar {
+    display: block;
+}
+.nano > .nano-pane {
+   background : rgba(0,0,0,.25);
+    position   : absolute;
+    width      : 10px;
+    right      : 0;
+    top        : 0;
+    bottom     : 0;
+    visibility : hidden\9; /* Target only IE7 and IE8 with this hack */
+    opacity    : .01;
+    -webkit-transition    : .2s;
+    -moz-transition       : .2s;
+    -o-transition         : .2s;
+    transition            : .2s;
+    -moz-border-radius    : 5px;
+    -webkit-border-radius : 5px;
+    border-radius         : 5px;
+}
+.nano > .nano-pane > .nano-slider {
+   /* background: #444;
+    background: rgba(0,0,0,.5);*/
+    position              : relative;
+    margin                : 0 1px;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+}
+.nano:hover > .nano-pane, .nano-pane.active, .nano-pane.flashed {
+    visibility : visible\9; /* Target only IE7 and IE8 with this hack */
+    opacity    : 0.99;
+}
+
+
+/*.nano { background: #bba;  height: 120px; }*/
+/*.nano .nano-content { padding: 2px; }*/
+/*.nano .nano-pane   { background: #888; }*/
+.nano .nano-slider { background: #999999; }

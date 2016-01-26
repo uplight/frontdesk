@@ -6,8 +6,7 @@
                     <h4><i class="<?= (string)$topic->icon; ?>">
                         </i> <?= (string)$topic->title; ?></h4> </div>
                 <div class="panel-body">
-                    <div class="nano">
-                        <p class="nano-content">
+                    <div><p>
                             <?=  (string)$topic->description; ?>
                         </p>
                     </div>
