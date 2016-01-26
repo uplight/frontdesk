@@ -19,7 +19,7 @@ session_start();
     <div class="container">
         <div class="col-lg-12" id="WelcomeToWeb">
             <h1 class="page-header">
-                Welcome to Building directories Pro
+                Welcome to Building directories Pro <a href="#request-demo" class="btn btn-success pull-right">Request Demo</a>
             </h1>
         </div>
 
@@ -48,10 +48,20 @@ session_start();
         </div>
 
     </div>
+    <div class="well">
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    Turnkey solution that includes everything you need to extend your business with modern technology.
+                    <br> <i> Connecting the world together.</i>
 
-    <?php
-       /* include('data/com/Call to Action.html');*/
-     ?>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <a class="btn btn-lg btn-default btn-block" href="Contact.php?Request-Online-Quote-Page#Contact-Form">Ask a question</a>
+            </div>
+        </div>
+    </div>
 
     <?php
         include "comps/footer.php";

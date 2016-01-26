@@ -35,7 +35,6 @@
        <!-- </div>-->
     <? $i++; } ?>
 </div>
-
     <div id="myMedia3" class="modal" role="dialog"  data-dismiss="myMedia3">
         <div class="modal-dialog">
             <div class="modal-content">

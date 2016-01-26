@@ -5,7 +5,7 @@
 <body>
 <?php
 include "comps/nav.php";
-include "comps/carusel.php";
+
 ?>
 
 <div class="container" id="Contact">
