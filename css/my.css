@@ -9,6 +9,16 @@
     color: #3c763d;
 }
 
+.brand-dark{
+    background-color: #3c763d;
+    color: white;
+}
+
+.brand-dark a, .brand-dark a:visited{
+    color: white;
+    text-decoration: none;
+}
+
 .brand{
     background: rgb(41,154,11); /* Old browsers */
     background: -moz-linear-gradient(top,  rgba(41,154,11,1) 0%, rgba(41,154,11,1) 100%); /* FF3.6-15 */

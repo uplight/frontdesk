@@ -1,25 +1,19 @@
-<?
-session_start();
+<?php
+include 'classes/DataProxy.php';
+$d=new DataProxy();
+include "comps/header.php";
+$main = $d->loadMain();
 ?>
-<!doctype html>
-<head>
-    <?php
-    include 'classes/DataProxy.php';
-    $d=new DataProxy();
-    $main = $d->loadMain();
-    include "comps/header-meta.php";
-    ?>
-</head>
 <body id="home">
     <?php include "comps/nav.php"; ?>
     <?php
     $carousel = $main;
     include "comps/carusel.php";
     ?>
-    <div class="container">
+    <section class="container">
         <div class="col-lg-12" id="WelcomeToWeb">
             <h1 class="page-header">
-                Welcome to Building directories Pro <a href="Contact?Request-Demo#Contact-Form" class="btn btn-success pull-right">Request Demo</a>
+                Welcome to Building directories Pro <a href="RequestDemo" class="btn btn-success pull-right">Request Demo</a>
             </h1>
         </div>
 
@@ -47,7 +41,8 @@ session_start();
 
         </div>
 
-    </div>
+    </section><!--End of container-->
+
     <div class="well">
         <div class="row">
             <div class="col-md-8">

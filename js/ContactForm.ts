@@ -65,11 +65,11 @@ module uplignt{
         }
 
         private onSubmit(evt:JQueryEventObject):void{
-
             if(!this.emailValid){
                 this.createAlert('Sorry, Email is invalid','error msg');
                 return;
             }
+
             if(!this.nameValid){
                 this.createAlert('Sorry, Name is invalid','error msg');
                 return;
